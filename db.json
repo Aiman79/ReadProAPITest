@@ -1,6 +1,44 @@
 {
-  id: 101,
-  title: 'foo',
-  body: 'bar',
-  userId: 1
+  "bookmarks": [
+    {
+      "id": 1,
+      "title": "Kotlin Coroutines Guide",
+      "url": "https://example.com/1",
+      "imageUrl": null,
+      "note": "Read intro section again",
+      "bookmarkedAt": 1750000000000
+    },
+    {
+      "id": 2,
+      "title": "Jetpack Compose Basics",
+      "url": "https://example.com/2",
+      "imageUrl": null,
+      "note": null,
+      "bookmarkedAt": 1750000001000
+    },
+    {
+      "id": 3,
+      "title": "Android Architecture Patterns",
+      "url": "https://example.com/3",
+      "imageUrl": null,
+      "note": "Compare MVVM vs MVI",
+      "bookmarkedAt": 1750000002000
+    },
+    {
+      "id": 4,
+      "title": "Room Database Tutorial",
+      "url": "https://example.com/4",
+      "imageUrl": null,
+      "note": null,
+      "bookmarkedAt": 1750000003000
+    },
+    {
+      "id": 5,
+      "title": "Hilt Dependency Injection",
+      "url": "https://example.com/5",
+      "imageUrl": null,
+      "note": null,
+      "bookmarkedAt": 1750000004000
+    }
+  ]
 }
